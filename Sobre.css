@@ -1,0 +1,613 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
+}
+
+.gradiente
+ {
+    width:100%;
+    height: 1.85rem;
+    background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    margin-top: 0rem;
+ }
+header
+ {
+     background:linear-gradient(to bottom,rgb(0, 0, 0),rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6));
+     box-shadow: 0px -2px 10px 13px rgba(0, 0, 0, 0.6);
+     width: 100%;
+     position: fixed;
+     display: inline-flex;
+     margin-top: -2.1rem;
+     padding-left: 26.6vw;
+     width: 100%;
+     height: 7rem;
+     list-style: none;
+ }
+
+#cabecalho{
+    display: flex;
+    
+}
+#links
+{
+    color: rgb(255,255,255);
+    display: inline-block;
+    font-family: Arial;
+    width: 10%;
+    margin-top: 1rem;
+    padding-inline:3.5vw;
+    cursor:pointer;
+    padding-top: 1rem;
+}
+
+#links:hover
+{
+    transform: scale(1.4);
+}
+#logo
+{
+    /*formatando a logo no cabeçalho
+    posição e tamanho da imagem*/
+    height: 50px;
+    width: 50px;
+    margin-top: 2.2rem;
+    margin-right: -2.7rem;
+    
+}
+#xis
+{ /*x do menu hamburguer*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+#hambu
+{   /*hamburguer do menu responsivo*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+/*menu hamburguer*/
+#menuzinho
+{   
+    font-family:Georgia;
+    visibility:hidden;
+    height:2rem;
+    cursor:pointer;
+    transition: 0.5s height;
+    position:fixed;
+    margin-top:1.5rem;
+    top:5rem;
+    width:100%;
+    text-align:center;
+}
+
+#menuzinho ul
+{
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0);
+    list-style:none;
+    height: 9.5rem;
+}
+#menuzinho ul li
+{
+    padding-top: 1rem;
+}
+#menuzinho ul li a{
+    color:rgb(255, 255, 255);
+}
+
+#menuzinho ul li:hover{
+    transform: scale(1.2);
+}
+/*fim do menu hamburguer*/
+#titulo
+{
+    font-size: 4rem;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    padding-top:1rem;
+    text-align: center;
+    padding-bottom: 5rem;
+    
+}
+#container
+{
+    display:inline-flex
+}
+#sobre
+{
+    color:white;
+    height:30vw;
+    width: 48vw;
+    margin-left:55.5rem ;
+    margin-top: -35rem;
+}
+i
+{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#imagem
+{
+    height:35rem;
+    width: 55rem;
+    margin-left:3rem
+}
+#imagem img
+{
+    height:30rem;
+    width: 55rem;
+    border-radius: 35px;
+}
+
+#traco
+{
+    background: linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    width: 100%;
+    height: 0.4vw;
+    margin-top: 5rem;
+}
+#titulo2
+{
+    color: rgb(255, 255, 255);
+    margin-top: 7rem;
+    font-size: 4rem;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: -2vw ;
+}
+#clientes
+{
+
+}
+#clientes img
+{
+    width: 16rem;
+    display: inline-flex;
+    margin-left: 17rem;
+    margin-top: -2rem;
+    padding-top: 8vw;
+}
+
+h4
+{
+    color: rgb(255, 255, 255);
+    margin-left: 49rem;
+    font-size: 2rem;
+}
+#estrutura .txt
+{
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-left: 0rem;
+}
+#maquinario .btn
+{
+    font-size: 1.5rem;
+    width: 25rem;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.8rem;
+    border: 0.3rem solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    display:inline-flex;
+    margin-left: 80rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#maquinario .btn img
+{
+    width: 6rem;
+    height: 2.4rem;
+    margin-left: 0.5rem;
+}
+#degrade
+ {
+    width:100%;
+    height: 2.8rem;
+    background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    margin-top: 6rem;
+ }
+ 
+
+footer
+{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    height: 25rem;
+    margin-top: -7rem;
+    margin-bottom:0%;
+}
+
+#endereco
+{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+#icones
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 39.8vw;
+    gap:2rem;
+    margin-bottom: 0rem;
+}
+
+#whats:hover
+{
+    background-color:rgba(37, 211, 101, 0.8);
+    border-radius:2.5rem 2.5rem 2.5rem 0rem;
+}
+
+#face:hover
+{
+    background-color:rgb(66, 103, 178, 0.8);
+    border-radius:2.5rem;
+}
+
+#insta:hover
+{
+    background: linear-gradient(to top left, rgba(252, 175, 69, 0.8), rgba(247, 119, 55, 0.8), rgba(225, 48, 108, 0.8), rgba(193, 53, 132, 0.8), rgba(131, 58, 180, 0.8), rgba(88, 81, 216, 0.8));
+    border-radius: 1rem;
+}
+#linke:hover
+{
+    background-color: rgba(2, 116, 179, 0.5);
+    border-radius: 0.5rem;
+}
+#email
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 41vw;
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+
+#email img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#horario
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 40.5vw;
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+
+#horario img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#telefone
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 38vw;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    gap: 10px;
+}
+
+#telefone img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#direitos
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 44vw;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+::-webkit-scrollbar-thumb
+    {
+        background-color: rgb(255, 255, 255)
+    }
+    /*Aplicando Responsividade ao Footer*/  
+@media(max-width: 1700px)
+{
+    header
+    {
+        padding-left: 24vw;
+    }
+    #titulo
+    {
+        font-size: 4vw;
+        font-family:Tahoma, Geneva, Verdana, sans-serif;
+        font-style:italic;
+        color: rgb(255, 255, 255);
+        padding-top:1rem;
+        text-align: center;
+        padding-bottom: 5vw;
+    
+    }
+    #imagem
+    {
+        margin-left:1rem
+    }
+    #imagem img
+    {
+        height:28vw;
+        width: 45vw;
+    }
+    #sobre
+    {
+        color:white;
+        margin-left:46vw ;
+        margin-top: -37rem;
+
+    }
+    i
+    {
+        font-size: 2vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }   
+    #clientes img
+    {
+        width: 10rem;
+        display: inline-flex;
+        margin-left: 17vw;
+        margin-top: -2rem;
+    }
+    #titulo2
+    {
+        font-size: 4vw;
+        margin-top: 7rem;
+        font-family:Tahoma, Geneva, Verdana, sans-serif;
+        font-style:italic;
+        color: rgb(255, 255, 255);
+        padding-top:1rem;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+    #estrutura
+    {
+        font-size: 1.7rem;
+        margin-left: 2vw;
+    }
+    .btn
+    {
+        font-size: 1.5rem;
+        width: 25rem;
+        padding: 0.8rem;
+        margin-left: 60vw;
+        margin-bottom: 2rem;
+
+    }
+    .btn img
+    {
+        width: 6rem;
+        height: 2.4rem;
+        margin-left: 0.5rem;
+    }
+    .txt
+    {
+        margin-left: 0vw;
+    }
+    h4
+    {
+        color: rgb(255, 255, 255);
+        margin-left: 38vw;
+        font-size: 2rem;
+    }
+    #maquinario
+    {
+        margin-left: -40vw;
+    }
+}
+
+@media(max-width: 1000px)
+{   
+    header{
+        background-color:rgb(0, 0, 0);
+        height:8rem
+    }
+
+    header ul{
+        visibility:hidden;
+    }
+
+    #hambu{
+        visibility:visible;
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    } 
+    #logo
+    {   
+        
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -22rem;
+        
+    }
+    #xis
+    {
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    }
+    #maquinario
+    {
+       display: none;
+    }
+    #clientes
+    {
+        margin-left: 2vw;
+    }
+    h4
+    {
+        display: none;
+    }
+    #imagem
+    {
+    height:20rem;
+    width: 26rem;
+    margin-left:1rem
+    }
+    #sobre
+    {
+        margin-top: -22rem;
+    }
+
+    h3
+    {
+       margin-left:0vw;
+    }
+    #icones
+    {
+        margin-left: 28vw;
+    }
+    #email
+    {
+        margin-left: 31vw;
+    }
+    #horario
+    {
+        margin-left: 31vw;
+    }
+    #telefone
+    {
+        margin-left: 24vw;
+    }
+    #direitos
+    {
+        margin-left: 39vw;
+    }
+    #maquinario
+    {
+       display: none;
+    }
+    #clientes
+    {
+        margin-left: 2vw;
+    }
+    h4
+    {
+        display: none;
+    }
+    #imagem
+    {
+    height:20rem;
+    width: 26rem;
+    margin-left:1rem
+    }
+    #sobre
+    {
+        margin-top: -22rem;
+    }
+    #maquinario
+    {
+       display: none;
+    }
+    #clientes
+    {
+        margin-left: 2vw;
+    }
+    h4
+    {
+        display: none;
+    }
+    #imagem
+    {
+    height:20rem;
+    width: 26rem;
+    margin-left:1rem
+    }
+    #sobre
+    {
+        margin-top: -22rem;
+    }
+}
+@media(max-width: 1300px)
+{
+    
+    #maquinario
+    {
+        margin-left: -100vw;
+    }
+}
+@media(max-width: 600px)
+{
+    #icones
+    {
+        margin-left: 3rem;
+    }
+    #email
+    {
+        margin-left: 4rem;
+    }
+    #horario
+    {
+        margin-left: 4rem;
+    }
+    #telefone
+    {
+        margin-left: 2rem;
+    }
+    #direitos
+    {
+        margin-left: 9rem;
+    }
+     #logo
+    {
+        /*formatando a logo no cabeçalho
+        posição e tamanho da imagem*/
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -20rem;
+        
+    }
+    #xis
+    {
+        margin-left: 2rem;
+    }
+    #hambu
+    {
+    margin-left: 2rem;
+    }
+}

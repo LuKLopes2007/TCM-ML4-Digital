@@ -1,0 +1,607 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
+}
+
+.gradiente
+ {
+    width:100%;
+    height: 1.85rem;
+    background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    margin-top: 0rem;
+ }
+ header
+ {
+     background:linear-gradient(to bottom,rgb(0, 0, 0),rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6));
+     box-shadow: 0px -2px 10px 13px rgba(0, 0, 0, 0.6);
+     width: 100%;
+     position: fixed;
+     display: inline-flex;
+     margin-top: -2.1rem;
+     padding-left: 26.6vw;
+     width: 100%;
+     height: 7rem;
+     list-style: none;
+ }
+
+#cabecalho{
+    display: flex;
+    
+}
+#links
+{
+    color: rgb(255,255,255);
+    display: inline-block;
+    font-family: Arial;
+    width: 10%;
+    margin-top: 1rem;
+    padding-inline:3.5vw;
+    cursor:pointer;
+    padding-top: 1rem;
+}
+
+#links:hover
+{
+    transform: scale(1.4);
+}
+#logo
+{
+    /*formatando a logo no cabeçalho
+    posição e tamanho da imagem*/
+    height: 50px;
+    width: 50px;
+    margin-top: 2.2rem;
+    margin-right: -2.7rem;
+    
+}
+#xis
+{ /*x do menu hamburguer*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+#hambu
+{   /*hamburguer do menu responsivo*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+/*menu hamburguer*/
+#menuzinho
+{   
+    font-family:Georgia;
+    visibility:hidden;
+    height:2rem;
+    cursor:pointer;
+    transition: 0.5s height;
+    position:fixed;
+    margin-top:1.5rem;
+    top:5rem;
+    width:100%;
+    text-align:center;
+}
+
+#menuzinho ul
+{
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0);
+    list-style:none;
+    height: 9.5rem;
+}
+#menuzinho ul li
+{
+    padding-top: 1rem;
+}
+#menuzinho ul li a{
+    color:rgb(255, 255, 255);
+}
+
+#menuzinho ul li:hover{
+    transform: scale(1.2);
+}
+/*fim do menu hamburguer*/
+a
+{
+text-decoration: none;
+color: white;
+}
+form
+{
+    margin-left: 2rem;
+    width: 69rem;
+    height: 10rem;
+    margin-top: -65rem;
+}
+.formu
+{
+    color: white;
+}
+.titulo
+{
+    font-size: 4rem;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    padding-top:1rem;
+    text-align: center;
+}
+#btn
+{
+    margin-left: 47rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+#fale
+{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-left: 21vw
+}
+label
+{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.caixas
+{
+    width: 24rem;
+    height: 2rem;
+    background-color: rgb(214, 214, 214);
+    font-size: 1.7rem;
+}
+.textos
+{
+    width: 50rem;
+    height: 2rem;
+    background-color: rgb(214, 214, 214);
+    font-size: 1.7rem;
+}
+#txtmens
+{
+    width: 50rem;
+    height: 15rem;
+    background-color: rgb(214, 214, 214);
+    font-size: 1.7rem;
+}
+#traco
+{
+    width: 0.7rem;
+    height: 30rem;
+    margin-left: 70rem;
+    margin-top: 6rem;
+    margin-bottom: 30rem;
+    background: linear-gradient(to top, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+}
+#tell
+{
+    padding-left: 23rem;
+}
+#informacoes
+{
+    margin-left: 72rem;
+    margin-right: 2rem;
+    margin-top: -12rem;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+ul
+{
+    list-style: none;
+
+}
+#emaill
+{
+    display: inline-flex;
+    padding-right: 0rem;
+
+}
+.txtinfo
+{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+#telefonee
+{
+    display: inline-flex;
+    padding-right: 15rem;
+}
+#telefone2
+{
+    display: inline-flex;
+    padding-right: 15rem;
+}
+#horarioo
+{
+    display: inline-flex;
+    padding-right: 15rem;
+}
+#informacoes img
+{
+    width: 3.5rem;
+}
+.txt
+{
+    padding: 0.8rem;
+    margin-left: 2vw;
+}
+button
+{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 45vw;
+    margin-top: 1rem;
+}
+iframe
+{
+    margin-left: 18vw;
+    margin-top: 25rem;
+    width: 60vw;
+    height: 25vw;
+}
+#degrade
+ {
+    width:100%;
+    height: 2.8rem;
+    background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    margin-top: 6rem;
+ }
+ 
+
+footer
+{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    height: 25rem;
+    margin-top: -7rem;
+    margin-bottom:0%;
+}
+
+#endereco
+{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+#icones
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 39.8vw;
+    gap:2rem;
+    margin-bottom: 0rem;
+}
+
+#whats:hover
+{
+    background-color:rgba(37, 211, 101, 0.8);
+    border-radius:2.5rem 2.5rem 2.5rem 0rem;
+}
+
+#face:hover
+{
+    background-color:rgb(66, 103, 178, 0.8);
+    border-radius:2.5rem;
+}
+
+#insta:hover
+{
+    background: linear-gradient(to top left, rgba(252, 175, 69, 0.8), rgba(247, 119, 55, 0.8), rgba(225, 48, 108, 0.8), rgba(193, 53, 132, 0.8), rgba(131, 58, 180, 0.8), rgba(88, 81, 216, 0.8));
+    border-radius: 1rem;
+}
+
+#linke:hover
+{
+    background-color: rgba(2, 116, 179, 0.5);
+    border-radius: 0.5rem;
+}
+
+#email
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 41vw;
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+
+#email img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#horario
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 40.5vw;
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+
+#horario img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#telefone
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 38vw;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    gap: 10px;
+}
+
+#telefone img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#direitos
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 44vw;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+::-webkit-scrollbar-thumb
+    {
+        background-color: rgb(255, 255, 255)
+    }
+    /*Aplicando Responsividade ao Footer*/  
+    @media(max-width: 1700px)
+{
+    header
+    {
+        padding-left: 24vw;
+    }
+    #informacoes
+    {
+        margin-left: 65rem;
+        margin-right: 2rem;
+        margin-top: -16rem;
+    }
+    #traco
+    {
+        margin-left: 65rem;
+        margin-top: 6rem;
+        margin-bottom: 30rem;
+    }
+}
+    @media(max-width: 1500px)
+    {
+        #informacoes
+        {
+        display: none;
+        }
+    
+        #emaill
+        {      
+            display: none;
+        }
+         .txtinfo
+        {
+            display: none;
+        }
+        #telefonee
+        {
+            display: none;
+        }
+        #telefone2
+        {   
+            display: none;
+        }
+        #horarioo
+        {   
+            display: none;
+        }
+        #informacoes img
+        {
+            display: none;
+        }
+        iframe
+        {
+            margin-left: 20vw;
+            padding-top: 6rem;
+        }
+        #traco
+        {
+            display:none;
+        }
+        form
+        {
+            margin-top:8rem;
+            margin-left: 8vw;
+            width: 90vw;
+        }
+        #btn
+        {
+            margin-left: 71vw;
+        }
+        #fale
+        {
+            display: none;
+        }
+        .caixas
+        {
+            width: 36vw;
+        }
+        .textos
+        {
+            width: 74.8vw;
+        }
+        #txtmens
+        {
+            width: 74.8vw;
+        }
+        #tell
+        {
+            padding-left: 34.5vw;
+        }
+        button
+        {
+            margin-left: 60vw;
+        }
+    }
+@media(max-width: 1000px)
+{
+    header{
+        background-color:rgb(0, 0, 0);
+        height:8rem
+    }
+
+    header ul{
+        visibility:hidden;
+    }
+
+    #hambu{
+        visibility:visible;
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    } 
+    #logo
+    {   
+        
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -22rem;
+        
+    }
+    #xis
+    {
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    }
+    h3
+    {
+       margin-left:0vw;
+    }
+    #icones
+    {
+        margin-left: 28vw;
+    }
+    #email
+    {
+        margin-left: 31vw;
+    }
+    #horario
+    {
+        margin-left: 31vw;
+    }
+    #telefone
+    {
+        margin-left: 24vw;
+    }
+    #direitos
+    {
+        margin-left: 39vw;
+    }
+    form
+    {
+        margin-left: 2rem;
+    }
+    .caixas
+    {
+        width: 35.6vw;
+    }
+    #tell
+    {
+        padding-left: 30vw;
+    }
+    #btn
+    {
+        margin-left: 62vw;
+    }
+    .textos
+    {
+        width: 75.9vw;
+    }
+    #txtmens
+    {
+        width: 75.9vw;
+    }
+    #tell
+    {
+        padding-left: 31.8vw;
+    }
+}
+@media(max-width: 600px)
+{
+    #logo
+    {
+        /*formatando a logo no cabeçalho
+        posição e tamanho da imagem*/
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -20rem;
+        
+    }
+    #xis
+    {
+        margin-left: 2rem;
+    }
+    #hambu
+    {
+    margin-left: 2rem;
+    }
+    h3
+    {
+       margin-left:0vw;
+       font-size: 4vw;
+    }
+    #icones
+    {
+        margin-left: 3rem;
+    }
+    #email
+    {
+        margin-left: 4rem;
+    }
+    #horario
+    {
+        margin-left: 4rem;
+    }
+    #telefone
+    {
+        margin-left: 2rem;
+    }
+    #direitos
+    {
+        margin-left: 9rem;
+    }
+}
+/*Fim da Responsividade ao Footer*/ 
